@@ -1,0 +1,40 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  text-align: left;
+}
+
+/* .navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+} */
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.nodejs,
+.express,
+.nodemon,
+.ssr {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+#nodejslist,
+#ssrlist {
+  text-align: justify;
+}

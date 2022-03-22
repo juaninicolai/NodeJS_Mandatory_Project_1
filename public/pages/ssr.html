@@ -1,0 +1,21 @@
+<h2>SSR -> Server Side Rendering</h2>
+<div class="ssr">
+<p>Server-side rendering (SSR) is an application’s ability to convert HTML files on the server into a fully rendered HTML page for the client. The web browser submits a request for information from the server, which instantly responds by sending a fully rendered page to the client.</p>
+
+<p>To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express: <code>app.use(express.static('public'))</code></p>
+
+<ul id="ssrlist">
+    <h3>Benefits</h3>
+    <li>A server-side rendered application enables pages to load faster, improving the user experience.</li>
+    <li>Rendering server-side helps efficiently load webpages for users with slow internet connection or outdated devices.</li>
+    <li>Webpages are correctly indexed because web browsers prioritize web pages with faster load times.</li>
+    <h3>Risks</h3>
+    <li>While rendering static HTML server-side is efficient, rendering bigger, more complex applications server-side can increase load times due to the bottleneck.</li>
+    <li>Rendering server-side may be ideal for static site generation, but frequent server requests and full page reloads can result in overall slower page rendering in more complex applications. </li>
+
+</ul>
+
+<a href="https://www.heavy.ai/technical-glossary/server-side-rendering" target="_blanc">
+    <button>Information taken from this site</button>
+</a>
+</div>
